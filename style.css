@@ -1,0 +1,236 @@
+.site-title
+{
+    color: #8f7655;
+}
+
+.logo
+{
+    text-decoration: none;
+}
+.site-title
+{
+    color: #8f7655;
+    outline: 0;
+    text-decoration: none;
+}
+
+.navbar
+{
+    border-top: 1px solid #e5e5e5;
+}
+
+#header {
+    position: sticky;
+    background-color: #fff;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-item
+{
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 25px;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 122px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.nav-link {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 200 !important;
+}
+
+/*--------------Welcome --------------- */
+
+#welcome {
+    padding-top: 5%;
+}
+
+#about {
+    color: #b18348;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.title {
+    color: #8f7655;
+}
+
+.title::before
+{
+    content: '';
+    background-color: #8f7655;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after
+{
+    content: '';
+    background-color: #8f7655;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/*--------------------Sermons ------------------- */
+
+#sermons
+{
+    color: #b18348;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.worship-details
+{
+    
+    padding-top: 10%;
+}
+
+
+/*------------Social Media------------*/
+#social-media
+{
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*---------------------Footer--------------*/
+
+#footer
+{
+    background-color: #363641;
+    color: #fff;
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box
+{
+    width: 120px;
+    margin-bottom: 20px;
+    color: #b18348;
+}
+
+.footer-box a
+{
+    color: #b18348;
+}
+
+#footer .fa {
+    color: #fff;
+}
+
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px; 
+    background-image: linear-gradient(to right, #b18348, #8f7655 );
+}
+
+
+/*----------------Page Title------------------*/
+
+.page-heading {
+    padding-top: 3%;
+}
+
+/*---------------Youth League-----------------*/
+
+.overlay-text {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;   
+}
+
+.overlay-subtext {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    color: white;
+    font-size: 15;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;   
+}
+
+.youth-league-header {
+    position: relative;
+    margin-top: -80px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.youth-league-header-image {
+    filter: brightness(70%);
+}
+
+.bullet-points li {
+    padding-top: 2%;
+}
+
+.subheader {
+    padding-top: 5%;
+}
+
+.subcontent {
+    padding-top: 3%;
+}
+
+.representatives-titles{
+    font-weight: 600;
+}
